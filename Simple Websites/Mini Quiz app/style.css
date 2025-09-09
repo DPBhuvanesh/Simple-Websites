@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(49, 111, 227);
+}
+
+
+.app{
+    background: #fff;
+    width:90%;
+    max-width: 600px;
+    padding: 30px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+
+}
+
+.app h1{
+
+    color: rgb(58, 92, 242);
+    font-weight: 25px;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+    padding-bottom: 20px;
+
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h2{
+    font-size: 20px;
+    color: #001e4d;
+    font-weight: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn{
+
+    background: #fff;
+    color:#222;
+    padding: 10px;
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    width: 90%;
+    border-radius: 4px;
+    cursor:pointer;
+    
+}
+
+.btn:hover:not[disabled]{
+    background: #222;
+    color: #fff;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next{
+    background: rgb(85, 85, 245);
+    color:#fff;
+    text-align: center;
+    padding: 15px;
+    width: 20%;
+    margin-left: 1px;
+    display: block;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#next:hover{
+    background:rgb(73, 133, 246);
+    color: #333;
+}
+
+
+.correct{
+    background: #88ffbc;
+
+}
+
+.incorrect{
+    background: rgb(243, 85, 85);
+}
+
+
