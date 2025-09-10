@@ -1,0 +1,91 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, hsla(276, 91%, 79%, 1) 0%, hsla(254, 74%, 65%, 1) 100%);    
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    
+    
+    padding: 80px;
+    margin: 90px auto 0 ;
+    width: 50%;
+    max-width: 400px;
+    background: #7e55b3;
+  border-radius: 50px;
+    color: white;
+    
+    
+}
+
+.container h1{
+    text-align: left;
+    color:  rgb(31, 1, 43) ;
+    
+}
+
+.input-box{
+   
+    padding: 20px;
+    margin: 40px auto 0;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    border-radius: 15px;
+
+    
+   
+}
+
+.input-box input{
+    flex:1;
+    border: 1px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 5px;
+    position: relative;
+    
+
+}
+
+.input-box button{
+    padding: 12px 10px;
+    width: 110px;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0px;
+    cursor:pointer;
+    color: #fff;
+    background: #37003aac;
+}
+
+.input-box input::-webkit-calendar-picker-indicator{
+    
+    
+    
+    background-size: 21px;
+    
+    padding: 5px;
+    cursor: pointer;
+  
+    
+}
+
+p{
+   
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #150030;
+    
+}
+
